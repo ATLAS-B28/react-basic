@@ -1,11 +1,9 @@
 import React from 'react'
-const today = new Date()
-const Footer = () => {
+
+const Footer = ({length}) => {
  return (
     <footer className='App-footer'>
-      <p>This is the footer section of the app</p>
-      <br />
-      <p>Copyright {today.getFullYear()}</p>
+     <p>{length} List {length === 1 ? "item":"items"}</p>
     </footer>
  )
 }
