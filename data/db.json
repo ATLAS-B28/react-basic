@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "rice"
+    },
+    {
+      "id": 2,
+      "checked": true,
+      "item": "pulses"
+    }
+  ]
+}
